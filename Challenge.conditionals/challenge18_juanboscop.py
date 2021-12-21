@@ -6,6 +6,17 @@ def voting():
     print("\t\t\t\t-----> This are your choices <------")
     for item in choices:
         print("\n",item)
+    print(choices[int(input("""\nEnter your vote ===> 
+                \nIf you type 0 = republican.
+                \nIf you type 1 = Democratic.
+                \nIf you type 2 = Independent.
+                \nIf you type 3 = Libertarian.
+                \nIf you type 4 = Green.
+                \n\t\t\t ---> please choose carefully.
+
+                                                    \nYou have chosen =====>\n"""))])
+    print(f"\nWell done!\n")
+    
 
 
 

@@ -1,4 +1,4 @@
-
+#binary number to hexadecimal Value converter:
 
 bnum = int(input("Enter the Binary Number: "))
 

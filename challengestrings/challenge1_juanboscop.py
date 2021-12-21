@@ -1,6 +1,6 @@
 #Letter counter app
 print("\n Welcome to Bosco's letter counter app\n")
-name = input("What's your name").capitalize()
+name = input("What's your name: ").capitalize()
 print(f"\nHello {name}")
 
 sentence  = input("Enter sentence: ")
